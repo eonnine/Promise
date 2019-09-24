@@ -1,6 +1,3 @@
-# Promise
-Promise
-
 Promise
 =
 Promise를 구현해본 예제입니다.
