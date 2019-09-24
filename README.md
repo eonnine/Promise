@@ -2,6 +2,7 @@ Promise
 =
 Promise를 구현해본 예제입니다.
 
+---
 ### ※Promise.then
 
 가장 기본적인 프로미스입니다. 순차적으로 실행됩니다.
@@ -46,7 +47,7 @@ promise.then(function (resolve, reject, data) {
 });
 ```
 
-
+---
 ### ※Promise.all
 배열에 담긴 프로미스 함수들이 실행되고 전부 resolve되면 메인 함수가 실행됩니다.
 반대로, 하나의 프로미스 함수라도 reject되면 메인 함수는 실행되지 않습니다.
@@ -85,7 +86,7 @@ function promiseThirdFn (resolve, reject) {
 }
 ```
 
-
+---
 ### ※Promise.one
 메인 함수가 실행되는 동안 add함수로 추가된 프로미스 함수들을 큐에 쌓아갑니다.
 
